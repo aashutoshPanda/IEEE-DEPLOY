@@ -3,6 +3,14 @@ html{
   scroll-behavior: smooth;
 }
 
+main{
+  max-width: 100vw;
+
+ overflow-x: hidden;
+ position: absolute;
+ height: auto;
+}
+
 .page-loader{
   background: #1A2980;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
@@ -160,7 +168,7 @@ body {
     display: none;
 }
 
-@media (max-width:1350px) {
+@media (max-width:1485px) {
 
   .head nav ul li a{
     font-family: Cabin;
@@ -266,7 +274,7 @@ body {
     z-index: 1;
     top: 10%;
     left: 50%;
-    margin-top: 40px;
+    margin-top: -300px;
     margin-left: -145px;
     width: 300px;
     height: 350px;
@@ -522,10 +530,9 @@ background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
   color: #171E3F;
   margin:50px 0;
   border: 4px solid #2F3C7E;
-  outline: 4px solid #171E3F;
+  outline: 6px solid #171E3F;
   padding: 50px;
   box-sizing: border-box;
-  border-radius: 15px;
   background: white;
   
 }
