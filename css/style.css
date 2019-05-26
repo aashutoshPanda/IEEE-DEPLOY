@@ -281,6 +281,15 @@ body {
     text-align: center;
     transition: all 1000ms;
   }
+
+  @media (max-width:450px){
+   
+  .content {
+
+   margin-top: -450px;
+}
+
+}
   
   .content .logo {
     height: 180px;
