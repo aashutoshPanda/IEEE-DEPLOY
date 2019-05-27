@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Lora|Roboto+Slab|Righteous|Kaushan+Script|Just+Another+Hand');
 
+html{
+ 
+  scroll-behaviour:smooth;
+
+}
+
+
 body{
 
     margin: 0;
