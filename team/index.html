@@ -566,11 +566,11 @@
         <div class="col-md-3 col-sm-6 col-xs-12 footer_newsletter footer-contact">
          <h4 class="col-header newsletter-heading">OUR NEWSLETTER</h4>
          <p class="newsletter_para">Do subscribe us, to get news regarding our various events and perks.</p> 
-         <form id ="newsletter" action="" style="display: inline-block;" method="GET">
+         <form id ="newsletter"  style="display: inline-block;" method="GET">
            <!-- <input class="subscribe_input" type="email" name="email">
            <input class="wow rubberBand subscribe" type="submit" value="Subscribe"> -->
            <div class="input-group mb-3">
-             <input type="email" name="email" class="form-control" placeholder="Your Email Address" aria-describedby="button-addon2">
+             <input type="email" name="email" class="form-control" placeholder="Your Email Address" aria-describedby="button-addon2" required/>
              <div class="wrapper">
               <div class="form-group feedback-text">
                 
@@ -631,6 +631,7 @@
         })
     </script>
     <script type="text/javascript" >
+      
       $.fn.serializeObject = function()
           {
              var o = {};
