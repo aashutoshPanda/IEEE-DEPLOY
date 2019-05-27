@@ -892,13 +892,13 @@ textarea::-webkit-scrollbar-thumb {
 	color:white;
 	
 }
-	main{
+	/*main{
 	   max-width: 100vw;
 	
     overflow-x: hidden;
     position: absolute;
     height: auto;
-   }
+   }*/
 	.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child){
 		width: 100%;
 		margin-left:10px; 
