@@ -468,11 +468,11 @@ filter: blur(10px);
 #ws .ws-img {
   display:flex;
   justify-content: center;
-  overflow: scroll;
-  padding: 20px;
+  overflow: hidden;
+  padding: 30px;
   margin-bottom: 15px;
   width: auto;
-  height: 200px;
+  height: 240px;
 }
 
 #ws .ws-img img {
