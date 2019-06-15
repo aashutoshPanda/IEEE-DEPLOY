@@ -584,6 +584,9 @@
       dataType: "json",
       success:function(){
         console.log("done");
+        $('.newsletter_para').html("Thank You for the valuable feedback !<br> Follow us, to get news regarding our various events and perks. ");
+                $(".footer-contact").css('margin-bottom','180px');
+                $('form').hide();
       },
       data: form.serializeObject()
     });
